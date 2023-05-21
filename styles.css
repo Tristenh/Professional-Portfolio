@@ -29,7 +29,7 @@ article img:hover{
 @media screen and (min-width: 768px) {
     .grid-control {
         display: grid;
-        grid-template-columns: 5rem 1fr 1fr ;
+        grid-template-columns: 8rem 1fr 1fr ;
         gap: 20px;
         padding: 1rem;
     }    
@@ -45,13 +45,18 @@ article img:hover{
         grid-row: span 3;
         grid-column: span 1;
         border-right: 2px solid rgb(59, 59, 135);
+        text-align: right;
+        padding-right: 1rem;
     }
-    body{
+    .contact{
+        border-right: 2px solid rgb(59, 59, 135);
+        text-align: right;
+        padding-right: 1rem;
+
+    }
+    footer{
         display: flex;
-        flex-direction: column;
-        width: 100vw;
-        justify-content: left;
-        align-items: left;
+        font-size: 2rem;
     }
 }
 @media screen and (max-width: 768px){
@@ -81,4 +86,16 @@ article img:hover{
 }
 h2{
     color: rgb(59, 59, 135) ;
+    font-size: 2rem;
+}
+h4{
+    color: rgb(59, 59, 135) ;
+}
+
+ul{
+    gap: 2rem;
+    list-style: none;
+}
+a{
+    text-decoration: none;
 }

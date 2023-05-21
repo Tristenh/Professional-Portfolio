@@ -11,37 +11,61 @@ nav a{
 }
 article img{
     border: 4px solid #96dfe2;
-    height: 150px;
-    width: 300px;
+    height: 15rem;
+    width: 22rem;
     filter: brightness(75%);
     transition: 200ms;
     z-index: -1;
+    object-fit: cover;
 }
 .main{
-    border: 4px solid #96dfe2;
-    height: 300px;
-    width: 300px;
-    filter: brightness(75%);
-    transition: 200ms;
-    z-index: -1;
+    height: 30rem;
+    width: 22rem;
 }
 
 article img:hover{
     filter: none;
 }
-
-
 @media screen and (min-width: 768px) {
     .grid-control {
         display: grid;
-        grid-template-columns: repeat(2, 300px);
-        justify-content: center;
+        grid-template-columns: 5rem 1fr 1fr ;
         gap: 20px;
+        padding: 1rem;
     }    
     .box-1, .box-1 img {
         grid-column: span 2;
-        width: 620px;
-      
+        width: 100%;
+    }
+    article img{
+        width: 100%;
+        object-fit: cover;
+    }
+    .work{
+        grid-row: span 3;
+        grid-column: span 1;
+        border-right: 2px solid rgb(59, 59, 135);
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        justify-content: left;
+        align-items: left;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .grid-control{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 .box{
@@ -52,6 +76,9 @@ article img:hover{
     background-color: #96dfe2;
     z-index: 999;
     bottom: 0;
-    margin-bottom: 2rem
-;
+    margin-bottom: 2rem;
+    line-height: 0;
+}
+h2{
+    color: rgb(59, 59, 135) ;
 }

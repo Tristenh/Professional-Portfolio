@@ -88,10 +88,20 @@ article img:hover{
         padding-right: 1rem;
 
     }
-    footer{
+    footer ul {
         display: flex;
+        justify-content: space-between;
+        align-items: center;
         font-size: 2rem;
-    }
+      }
+      
+      footer a {
+        color: rgb(59, 59, 135);
+        border-bottom: 2px solid rgb(59, 59, 135);
+        text-align: justify;
+        flex-grow: 1;
+        margin: 0 10px;
+      }
 }
 @media screen and (max-width: 768px){
     body{

@@ -1,3 +1,15 @@
+[submodule "colorChanger"]
+	path = colorChanger
+	url = https://tristenh.github.io/colorChanger/
 [submodule "counter"]
 	path = counter
 	url = https://tristenh.github.io/counter/
+[submodule "love-Calculator"]
+	path = love-Calculator
+	url = https://tristenh.github.io/love-Calculator/
+[submodule "my-restaurant-menu"]
+	path = my-restaurant-menu
+	url = https://tristenh.github.io/my-restaurant-menu/
+[submodule "Resume"]
+	path = Resume
+	url = https://tristenh.github.io/Resume/

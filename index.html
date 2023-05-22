@@ -12,10 +12,10 @@
     <nav>
       <p>Tristen Hobba</p>
       <ul>
-        <li><a href="about-me">About Me</a></li>
-        <li><a href="work">Work</a></li>
-        <li><a href="contact">Contact Me</a></li>
-        <li><a href="resume">Resume</a></li>
+        <li><a href="./about.html">About Me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        <li><a href="./Resume/index.html">Resume</a></li>
       </ul>
     </nav>
     <!-- hero -->
@@ -36,7 +36,7 @@
     </section>
     <!-- work -->
     <section class="grid-control">
-      <div class="work">
+      <div id="work" class="work">
         <h2>Work</h2>
       </div>
       <!-- article-1 -->
@@ -45,11 +45,12 @@
           <h2>My Menu</h2>
           <p>CSS JavaScript</p>
         </div>
-        <img
-          class="main"
-          src="./images/my menu.png"
-          alt="A fictional menu app"
-        />
+        <a href="./my-restaurant-menu/index.html">
+          <img
+            class="main"
+            src="./images/my menu.png"
+            alt="A fictional menu app"
+        /></a>
       </article>
       <!-- end article-1 -->
       <!-- article-2 -->
@@ -58,7 +59,9 @@
           <h2>Color Changer</h2>
           <p>CSS javaScript</p>
         </div>
-        <img src="./images/color-changer.png" alt="color changing app" />
+        <a href="./colorChanger/index.html"
+          ><img src="./images/color-changer.png" alt="color changing app" />
+        </a>
       </article>
       <!-- end article-2 -->
       <!-- article-3 -->
@@ -67,7 +70,9 @@
           <h2>Counter</h2>
           <p>CSS JavaScript</p>
         </div>
-        <img src="./images/counter.png" alt="A counting app" />
+        <a href="./counter/index.html">
+          <img src="./images/counter.png" alt="A counting app"
+        /></a>
       </article>
       <!-- end article-3 -->
       <!-- article-4 -->
@@ -76,7 +81,12 @@
           <h2>Love Calculator</h2>
           <p>CSS javaScript</p>
         </div>
-        <img src="./images/love calculator.png" alt="A love calculator app" />
+        <a href="./love-Calculator/index.html"
+          ><img
+            src="./images/love calculator.png"
+            alt="A love calculator app"
+          />
+        </a>
       </article>
       <!-- end article-4 -->
       <!-- article-5 -->
@@ -85,23 +95,30 @@
           <h2>Coming Soon</h2>
           <p>CSS javaScript</p>
         </div>
-        <img
-          src="./images/red-coming-soon.jpg"
-          alt="coming soon red neon sign"
-        />
+        <a href="#">
+          <img
+            src="./images/red-coming-soon.jpg"
+            alt="coming soon red neon sign"
+        /></a>
       </article>
       <!-- end article-5 -->
       <!-- footer -->
       <footer>
-        <div class="contact">
-          <h4 >Contact Me</h4>
+        <div id="contact" class="contact">
+          <h4>Contact Me</h4>
         </div>
         <ul>
-          <li><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">linkedIn</a></li>
-        <li><a href="https://github.com/Tristenh">GitHub</a></li>
-        <li><a href="mailto:tristenhobba1@gmail.com">Email</a></li>
-      </ul>
-    </footer>
-  </section>
+          <li>
+            <a
+              href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+              >linkedIn</a
+            >
+          </li>
+          <li><a href="https://github.com/Tristenh">GitHub</a></li>
+          <li><a href="mailto:tristenhobba1@gmail.com">Email</a></li>
+        </ul>
+      </footer>
+    </section>
+    <script src="./app.js"></script>
   </body>
 </html>

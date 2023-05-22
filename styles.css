@@ -2,9 +2,28 @@ ul{
     display: flex;
     flex-direction: row;
     list-style: none ;
+    gap: 0.5rem;
+    margin-right: 5rem;
+}
+nav{
+    background-color: rgb(59, 59, 59);
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none ;
+    gap: 0.5rem;
 }
 nav a{
-    margin-left: 1rem;
+    color: #96dfe2;
+    border-bottom: 2px solid #96dfe2 ;
+}
+.title{
+    background-color:#96dfe2 ;
+    font-size: 2rem;
+    width: 22rem;
+    display: flex;
+    align-items: center;
+    height: 3rem;
 }
 .hero img{
     width: 200px;
@@ -105,11 +124,6 @@ h2{
 }
 h4{
     color: rgb(59, 59, 135) ;
-}
-
-ul{
-    gap: 2rem;
-    list-style: none;
 }
 a{
     text-decoration: none;
